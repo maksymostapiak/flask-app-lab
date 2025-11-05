@@ -22,5 +22,19 @@ class FlaskAppTestCase(unittest.TestCase):
         self.assertIn(b"ADMINISTRATOR", response.data)
         self.assertIn(b"45", response.data)
 
+    def test_products_list_page(self):
+        """Тест сторінки /products/list"""
+        response = self.client.get("products/list")
+        
+        self.assertEqual(response.status_code, 200)
+
+        self.assertIn(b"Laptop", response.data)
+        self.assertIn(b"Phone", response.data)
+        self.assertIn(b"Tablet", response.data)
+
+        self.assertIn(b"1200", response.data)
+        self.assertIn(b"800", response.data)
+        self.assertIn(b"500", response.data)
+
 if __name__ == "__main__":
     unittest.main()
