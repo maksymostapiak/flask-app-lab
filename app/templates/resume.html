@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+  <section id="about" class="text-center">
+      <h2 class="mb-3">Про себе</h2>
+    <img src="{{ url_for('static', filename='img/photo.jpg') }}" alt="Моє фото" class="rounded-circle mb-3" width="200">
+    <p class="lead">Моє ім`я - Остап`як Максим. Я — розробник програмного забезпечення з досвідом у веб-розробці, автоматизації та робототехніці. Маю мало досвіду в великих компаніях (не маю).</p>
+</section>
+
+<section id="education" >
+    <h2 class="mid">Освіта</h2>
+    <p>Загальна сердня освіта, здобувач вищої освіти спеціалності інженерія програмного забезпечення <strong>Черніївський ліцей, Карпатський Національний Університет</strong>.</p>
+</section>
+
+<section id="skills" >
+    <h2 class="mid">Навички</h2>
+    <ul class="list-group">
+        <li>Python, Flask, C++</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>SQL, Git, Java</li>
+    </ul>
+</section>
+
+<section id="technologies" >
+    <h2 class="mid">Технології</h2>
+    <p>Використовую сучасні технології, такі як bootstrap та flask для створення ефективних веб-додатків.</p>
+</section>
+
+<section id="experience" >
+    <h2 class="mid">Проекти</h2>
+    <ul class="list-group">
+        <li><strong>GoalMate:</strong> Телеграм-бот для відстеження прогресу цілей.</li>
+        <li><strong>NewsReader:</strong> Загально відомий та широко популрний у світі сайт з новинами.</li>
+    </ul>
+</section>
+</div>
+{% endblock %}

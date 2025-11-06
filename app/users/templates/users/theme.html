@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Оберіть тему</h2>
+
+    <form method="POST">
+        <div class="card">
+            <label>
+                <input type="radio" name="theme" value="light" 
+                    {% if request.cookies.get('theme') == 'light' %}checked{% endif %}>
+                Світла
+            </label>
+            <br>
+
+            <label>
+                <input type="radio" name="theme" value="dark"
+                    {% if request.cookies.get('theme') == 'dark' %}checked{% endif %}>
+                Темна
+            </label>
+            <br><br>
+
+            <button type="submit">Зберегти</button>
+        </div>
+    </form>
+{% endblock %}

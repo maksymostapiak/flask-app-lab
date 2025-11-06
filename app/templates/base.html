@@ -11,16 +11,29 @@
     >
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <body class="d-flex flex-column min-vh-100">
     <header>
-
+ {% include 'components/navbar.html' %}
     </header>
 
     <main>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <div class="container mt-3">
+      {% for category, message in messages %}
+        <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+          {{ message }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endwith %}
         {% block content %}
         {% endblock %}
     </main>
-
+ {% include 'components/footer.html' %}
 
 </body>
 </html>

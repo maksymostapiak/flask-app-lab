@@ -7,3 +7,9 @@ section {
     color:darkslategrey;
     margin-bottom: 20px;
 }
+.dark{
+  background-color: black;
+}
+.light{
+  background-color: aliceblue;
+}
