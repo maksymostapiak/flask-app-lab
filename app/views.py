@@ -1,5 +1,14 @@
-from flask import request, redirect, url_for, render_template, abort
+import logging
+from flask import request, redirect, url_for, render_template, abort, flash
 from . import app
+from app.form import ContactForm
+
+
+logging.basicConfig(
+    filename="contact_form.log",
+    level=logging.INFO,
+    format="%(asctime)s — %(message)s"
+)
 
 @app.route('/')
 def resume():
@@ -9,10 +18,18 @@ def resume():
         header_title='Моє резюме'
     )
 
-@app.route('/contacts')
+@app.route('/contacts', methods=["GET", "POST"])
 def contacts():
-    return render_template(
-        'contacts.html',
-        page_title='Контакти',
-        header_title='Зв’язок зі мною'
-    )
+    form = ContactForm()
+
+    if form.validate_on_submit():
+
+        logging.info(
+            f"User: {form.name.data}, Email: {form.email.data}, Phone: {form.phone.data}, Subject: {form.subject.data}"
+        )
+
+        flash(f"Повідомлення надіслано! Дякуємо, {form.name.data}. Ваша пошта - {form.email.data}", "success")
+
+        return redirect(url_for("contacts"))
+
+    return render_template("contacts.html", form=form)

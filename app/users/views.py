@@ -1,25 +1,27 @@
 from flask import Blueprint, request, redirect, url_for, render_template, flash, session, make_response
+from app.form import LoginForm
 
 users_bp = Blueprint('users', __name__, url_prefix='/users', template_folder='templates')
 
-VALID_USERNAME = "admin"
-VALID_PASSWORD = "12345"
+#VALID_USERNAME = "admin"
+#VALID_PASSWORD = "12345"
 
 @users_bp.route("/login", methods=["GET", "POST"])
 def login():
+    form = LoginForm()
     if request.method == "POST":
-        username = request.form.get("username")
-        password = request.form.get("password")
+        if form.validate_on_submit():
+            session["user"] = form.username.data
 
-        if username == VALID_USERNAME and password == VALID_PASSWORD:
-            session["user"] = username  
-            flash("Ви успішно увійшли!", "success")
+            if form.remember.data:
+                flash(f"Ви успішно увійшли як {form.username.data}. (Запам'ятати увімкнено)", "success")
+            else:
+                flash(f"Ви успішно увійшли як {form.username.data}.", "success")
             return redirect(url_for("users.profile"))
         else:
-            flash("Невірне ім’я користувача або пароль!", "danger")
+            flash(f"Ви ввели дані неправильно!", "warning")
             return redirect(url_for("users.login"))
-
-    return render_template("users/login.html")
+    return render_template("users/login.html", form=form)
 
 @users_bp.route("/profile", methods=["GET", "POST"])
 def profile():

@@ -1,0 +1,2 @@
+SECRET_KEY = "smth"
+WTF_CSRF_SECRET_KEY = "csrf"

@@ -1,0 +1,360 @@
+2025-11-07 01:11:55,836 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-11-07 01:11:55,837 — [33mPress CTRL+C to quit[0m
+2025-11-07 01:11:55,839 —  * Restarting with stat
+2025-11-07 01:11:56,469 —  * Debugger is active!
+2025-11-07 01:11:56,472 —  * Debugger PIN: 323-008-109
+2025-11-07 01:12:11,624 — 127.0.0.1 - - [07/Nov/2025 01:12:11] "[32mGET /users/profile HTTP/1.1[0m" 302 -
+2025-11-07 01:12:11,729 — 127.0.0.1 - - [07/Nov/2025 01:12:11] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 01:12:11,860 — 127.0.0.1 - - [07/Nov/2025 01:12:11] "GET /static/style.css HTTP/1.1" 200 -
+2025-11-07 01:12:11,929 — 127.0.0.1 - - [07/Nov/2025 01:12:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-07 01:12:13,214 — 127.0.0.1 - - [07/Nov/2025 01:12:13] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 01:12:13,245 — 127.0.0.1 - - [07/Nov/2025 01:12:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:12:14,145 — 127.0.0.1 - - [07/Nov/2025 01:12:14] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 01:12:14,179 — 127.0.0.1 - - [07/Nov/2025 01:12:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:12:22,201 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-11-07 01:12:22,201 — [33mPress CTRL+C to quit[0m
+2025-11-07 01:12:22,203 —  * Restarting with stat
+2025-11-07 01:12:22,605 —  * Debugger is active!
+2025-11-07 01:12:22,607 —  * Debugger PIN: 323-008-109
+2025-11-07 01:12:39,814 — 127.0.0.1 - - [07/Nov/2025 01:12:39] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 01:12:39,898 — 127.0.0.1 - - [07/Nov/2025 01:12:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:12:43,518 — 127.0.0.1 - - [07/Nov/2025 01:12:43] "GET /contacts HTTP/1.1" 200 -
+2025-11-07 01:12:43,546 — 127.0.0.1 - - [07/Nov/2025 01:12:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:13:59,120 — 127.0.0.1 - - [07/Nov/2025 01:13:59] "POST /contacts HTTP/1.1" 200 -
+2025-11-07 01:13:59,144 — 127.0.0.1 - - [07/Nov/2025 01:13:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:14:04,270 — 127.0.0.1 - - [07/Nov/2025 01:14:04] "POST /contacts HTTP/1.1" 200 -
+2025-11-07 01:14:04,300 — 127.0.0.1 - - [07/Nov/2025 01:14:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:14:05,814 — 127.0.0.1 - - [07/Nov/2025 01:14:05] "POST /contacts HTTP/1.1" 200 -
+2025-11-07 01:14:05,840 — 127.0.0.1 - - [07/Nov/2025 01:14:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:14:14,164 — 127.0.0.1 - - [07/Nov/2025 01:14:14] "POST /contacts HTTP/1.1" 200 -
+2025-11-07 01:14:14,196 — 127.0.0.1 - - [07/Nov/2025 01:14:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:14:17,180 — 127.0.0.1 - - [07/Nov/2025 01:14:17] "POST /contacts HTTP/1.1" 200 -
+2025-11-07 01:14:17,217 — 127.0.0.1 - - [07/Nov/2025 01:14:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:14:21,313 — 127.0.0.1 - - [07/Nov/2025 01:14:21] "POST /contacts HTTP/1.1" 200 -
+2025-11-07 01:14:21,337 — 127.0.0.1 - - [07/Nov/2025 01:14:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:14:22,413 — 127.0.0.1 - - [07/Nov/2025 01:14:22] "POST /contacts HTTP/1.1" 200 -
+2025-11-07 01:14:22,454 — 127.0.0.1 - - [07/Nov/2025 01:14:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:14:23,464 — User: 1212, Email: 123@sadls.com, Phone: +380231232422, Subject: order
+2025-11-07 01:14:23,514 — 127.0.0.1 - - [07/Nov/2025 01:14:23] "[35m[1mPOST /contacts HTTP/1.1[0m" 500 -
+2025-11-07 01:14:23,595 — 127.0.0.1 - - [07/Nov/2025 01:14:23] "GET /contacts?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-07 01:14:23,711 — 127.0.0.1 - - [07/Nov/2025 01:14:23] "GET /contacts?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-07 01:14:23,770 — 127.0.0.1 - - [07/Nov/2025 01:14:23] "GET /contacts?__debugger__=yes&cmd=resource&f=console.png&s=QzRMQnBHyf38RNufkDtH HTTP/1.1" 200 -
+2025-11-07 01:14:23,827 — 127.0.0.1 - - [07/Nov/2025 01:14:23] "GET /contacts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-07 01:15:04,142 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\views.py', reloading
+2025-11-07 01:15:04,325 —  * Restarting with stat
+2025-11-07 01:15:05,609 —  * Debugger is active!
+2025-11-07 01:15:05,612 —  * Debugger PIN: 323-008-109
+2025-11-07 01:15:08,320 — User: 1212, Email: 123@sadls.com, Phone: +380231232422, Subject: order
+2025-11-07 01:15:08,321 — 127.0.0.1 - - [07/Nov/2025 01:15:08] "[32mPOST /contacts HTTP/1.1[0m" 302 -
+2025-11-07 01:15:08,345 — 127.0.0.1 - - [07/Nov/2025 01:15:08] "GET /contacts HTTP/1.1" 200 -
+2025-11-07 01:15:08,429 — 127.0.0.1 - - [07/Nov/2025 01:15:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:17:32,757 — User: 1212, Email: 123@sadls.com, Phone: +380231232422, Subject: support
+2025-11-07 01:17:32,758 — 127.0.0.1 - - [07/Nov/2025 01:17:32] "[32mPOST /contacts HTTP/1.1[0m" 302 -
+2025-11-07 01:17:32,771 — 127.0.0.1 - - [07/Nov/2025 01:17:32] "GET /contacts HTTP/1.1" 200 -
+2025-11-07 01:17:32,803 — 127.0.0.1 - - [07/Nov/2025 01:17:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:17:45,808 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\views.py', reloading
+2025-11-07 01:17:46,026 —  * Restarting with stat
+2025-11-07 01:17:46,996 —  * Debugger is active!
+2025-11-07 01:17:47,000 —  * Debugger PIN: 323-008-109
+2025-11-07 01:18:26,906 — User: 1231, Email: 123@sadls.com, Phone: +380231232422, Subject: order
+2025-11-07 01:18:26,907 — 127.0.0.1 - - [07/Nov/2025 01:18:26] "[32mPOST /contacts HTTP/1.1[0m" 302 -
+2025-11-07 01:18:26,934 — 127.0.0.1 - - [07/Nov/2025 01:18:26] "GET /contacts HTTP/1.1" 200 -
+2025-11-07 01:18:27,033 — 127.0.0.1 - - [07/Nov/2025 01:18:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:18:47,721 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\views.py', reloading
+2025-11-07 01:18:47,815 —  * Restarting with stat
+2025-11-07 01:18:48,396 —  * Debugger is active!
+2025-11-07 01:18:48,401 —  * Debugger PIN: 323-008-109
+2025-11-07 01:21:38,113 — User: 1212, Email: maksym.ostapiak.23@pnu.edu.ua, Phone: +380231232422, Subject: order
+2025-11-07 01:21:38,114 — 127.0.0.1 - - [07/Nov/2025 01:21:38] "[32mPOST /contacts HTTP/1.1[0m" 302 -
+2025-11-07 01:21:38,159 — 127.0.0.1 - - [07/Nov/2025 01:21:38] "GET /contacts HTTP/1.1" 200 -
+2025-11-07 01:21:38,241 — 127.0.0.1 - - [07/Nov/2025 01:21:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:21:44,804 — 127.0.0.1 - - [07/Nov/2025 01:21:44] "GET /users/theme HTTP/1.1" 200 -
+2025-11-07 01:21:44,832 — 127.0.0.1 - - [07/Nov/2025 01:21:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:21:45,668 — 127.0.0.1 - - [07/Nov/2025 01:21:45] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 01:21:45,696 — 127.0.0.1 - - [07/Nov/2025 01:21:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:21:48,203 — 127.0.0.1 - - [07/Nov/2025 01:21:48] "[32mGET /users/profile HTTP/1.1[0m" 302 -
+2025-11-07 01:21:48,215 — 127.0.0.1 - - [07/Nov/2025 01:21:48] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 01:21:48,242 — 127.0.0.1 - - [07/Nov/2025 01:21:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:21:49,969 — 127.0.0.1 - - [07/Nov/2025 01:21:49] "GET /contacts HTTP/1.1" 200 -
+2025-11-07 01:21:49,999 — 127.0.0.1 - - [07/Nov/2025 01:21:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:49:35,422 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\views.py', reloading
+2025-11-07 01:49:35,546 —  * Restarting with stat
+2025-11-07 01:49:37,474 —  * Debugger is active!
+2025-11-07 01:49:37,477 —  * Debugger PIN: 323-008-109
+2025-11-07 01:50:41,594 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\views.py', reloading
+2025-11-07 01:50:41,774 —  * Restarting with stat
+2025-11-07 01:50:42,459 —  * Debugger is active!
+2025-11-07 01:50:42,461 —  * Debugger PIN: 323-008-109
+2025-11-07 01:50:52,729 — User: 1212, Email: 123@sadls.com, Phone: +380231232422, Subject: support
+2025-11-07 01:50:52,741 — 127.0.0.1 - - [07/Nov/2025 01:50:52] "[35m[1mPOST /contacts HTTP/1.1[0m" 500 -
+2025-11-07 01:50:52,890 — 127.0.0.1 - - [07/Nov/2025 01:50:52] "[36mGET /contacts?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:50:52,891 — 127.0.0.1 - - [07/Nov/2025 01:50:52] "[36mGET /contacts?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-07 01:50:52,922 — 127.0.0.1 - - [07/Nov/2025 01:50:52] "GET /contacts?__debugger__=yes&cmd=resource&f=console.png&s=b2VqU2XLdoQFjd0tFukP HTTP/1.1" 200 -
+2025-11-07 01:50:52,983 — 127.0.0.1 - - [07/Nov/2025 01:50:52] "[36mGET /contacts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-07 01:51:23,993 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\views.py', reloading
+2025-11-07 01:51:24,091 —  * Restarting with stat
+2025-11-07 01:51:24,830 —  * Debugger is active!
+2025-11-07 01:51:24,833 —  * Debugger PIN: 323-008-109
+2025-11-07 01:51:25,360 — 127.0.0.1 - - [07/Nov/2025 01:51:25] "GET /contacts HTTP/1.1" 200 -
+2025-11-07 01:51:25,434 — 127.0.0.1 - - [07/Nov/2025 01:51:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:51:33,425 — User: 1212, Email: 123@sadls.com, Phone: +380231232422, Subject: support
+2025-11-07 01:51:33,426 — 127.0.0.1 - - [07/Nov/2025 01:51:33] "[32mPOST /contacts HTTP/1.1[0m" 302 -
+2025-11-07 01:51:33,432 — 127.0.0.1 - - [07/Nov/2025 01:51:33] "GET /contacts HTTP/1.1" 200 -
+2025-11-07 01:51:33,463 — 127.0.0.1 - - [07/Nov/2025 01:51:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:51:55,590 — 127.0.0.1 - - [07/Nov/2025 01:51:55] "GET /contacts HTTP/1.1" 200 -
+2025-11-07 01:51:55,617 — 127.0.0.1 - - [07/Nov/2025 01:51:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:52:02,285 — 127.0.0.1 - - [07/Nov/2025 01:52:02] "POST /contacts HTTP/1.1" 200 -
+2025-11-07 01:52:02,317 — 127.0.0.1 - - [07/Nov/2025 01:52:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:52:05,533 — User: 1231, Email: 123@sadls.com, Phone: +380231232422, Subject: support
+2025-11-07 01:52:05,535 — 127.0.0.1 - - [07/Nov/2025 01:52:05] "[32mPOST /contacts HTTP/1.1[0m" 302 -
+2025-11-07 01:52:05,543 — 127.0.0.1 - - [07/Nov/2025 01:52:05] "GET /contacts HTTP/1.1" 200 -
+2025-11-07 01:52:05,566 — 127.0.0.1 - - [07/Nov/2025 01:52:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 01:57:48,342 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\form.py', reloading
+2025-11-07 01:57:48,417 —  * Restarting with stat
+2025-11-07 01:58:49,508 —  * Restarting with stat
+2025-11-07 01:59:00,801 —  * Restarting with stat
+2025-11-07 02:00:04,832 —  * Restarting with stat
+2025-11-07 02:00:06,432 —  * Restarting with stat
+2025-11-07 02:06:59,650 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-11-07 02:06:59,650 — [33mPress CTRL+C to quit[0m
+2025-11-07 02:06:59,651 —  * Restarting with stat
+2025-11-07 02:07:00,086 —  * Debugger is active!
+2025-11-07 02:07:00,089 —  * Debugger PIN: 323-008-109
+2025-11-07 02:07:03,098 — 127.0.0.1 - - [07/Nov/2025 02:07:03] "GET /contacts HTTP/1.1" 200 -
+2025-11-07 02:07:03,186 — 127.0.0.1 - - [07/Nov/2025 02:07:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:07:08,399 — 127.0.0.1 - - [07/Nov/2025 02:07:08] "[35m[1mGET /users/login HTTP/1.1[0m" 500 -
+2025-11-07 02:07:08,427 — 127.0.0.1 - - [07/Nov/2025 02:07:08] "GET /users/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-07 02:07:08,451 — 127.0.0.1 - - [07/Nov/2025 02:07:08] "GET /users/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-07 02:07:08,544 — 127.0.0.1 - - [07/Nov/2025 02:07:08] "GET /users/login?__debugger__=yes&cmd=resource&f=console.png&s=ozrYOKmR2upqOwoYb8bP HTTP/1.1" 200 -
+2025-11-07 02:07:08,555 — 127.0.0.1 - - [07/Nov/2025 02:07:08] "GET /users/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-07 02:08:29,758 — 127.0.0.1 - - [07/Nov/2025 02:08:29] "[35m[1mGET /users/login HTTP/1.1[0m" 500 -
+2025-11-07 02:08:29,787 — 127.0.0.1 - - [07/Nov/2025 02:08:29] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:08:29,804 — 127.0.0.1 - - [07/Nov/2025 02:08:29] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-07 02:08:29,820 — 127.0.0.1 - - [07/Nov/2025 02:08:29] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png&s=ozrYOKmR2upqOwoYb8bP HTTP/1.1[0m" 304 -
+2025-11-07 02:08:29,886 — 127.0.0.1 - - [07/Nov/2025 02:08:29] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-07 02:08:30,921 — 127.0.0.1 - - [07/Nov/2025 02:08:30] "[35m[1mGET /users/login HTTP/1.1[0m" 500 -
+2025-11-07 02:08:30,954 — 127.0.0.1 - - [07/Nov/2025 02:08:30] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:08:30,968 — 127.0.0.1 - - [07/Nov/2025 02:08:30] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-07 02:08:31,029 — 127.0.0.1 - - [07/Nov/2025 02:08:31] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png&s=ozrYOKmR2upqOwoYb8bP HTTP/1.1[0m" 304 -
+2025-11-07 02:08:31,037 — 127.0.0.1 - - [07/Nov/2025 02:08:31] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-07 02:08:31,103 — 127.0.0.1 - - [07/Nov/2025 02:08:31] "[35m[1mGET /users/login HTTP/1.1[0m" 500 -
+2025-11-07 02:08:31,127 — 127.0.0.1 - - [07/Nov/2025 02:08:31] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:08:31,136 — 127.0.0.1 - - [07/Nov/2025 02:08:31] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-07 02:08:31,144 — 127.0.0.1 - - [07/Nov/2025 02:08:31] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png&s=ozrYOKmR2upqOwoYb8bP HTTP/1.1[0m" 304 -
+2025-11-07 02:08:31,198 — 127.0.0.1 - - [07/Nov/2025 02:08:31] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-07 02:09:29,462 — 127.0.0.1 - - [07/Nov/2025 02:09:29] "[35m[1mGET /users/login HTTP/1.1[0m" 500 -
+2025-11-07 02:09:29,515 — 127.0.0.1 - - [07/Nov/2025 02:09:29] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:09:29,516 — 127.0.0.1 - - [07/Nov/2025 02:09:29] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-07 02:09:29,586 — 127.0.0.1 - - [07/Nov/2025 02:09:29] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png&s=ozrYOKmR2upqOwoYb8bP HTTP/1.1[0m" 304 -
+2025-11-07 02:09:29,617 — 127.0.0.1 - - [07/Nov/2025 02:09:29] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-07 02:09:30,111 — 127.0.0.1 - - [07/Nov/2025 02:09:30] "[35m[1mGET /users/login HTTP/1.1[0m" 500 -
+2025-11-07 02:09:30,141 — 127.0.0.1 - - [07/Nov/2025 02:09:30] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:09:30,155 — 127.0.0.1 - - [07/Nov/2025 02:09:30] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-07 02:09:30,200 — 127.0.0.1 - - [07/Nov/2025 02:09:30] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png&s=ozrYOKmR2upqOwoYb8bP HTTP/1.1[0m" 304 -
+2025-11-07 02:09:30,222 — 127.0.0.1 - - [07/Nov/2025 02:09:30] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-07 02:11:21,426 — 127.0.0.1 - - [07/Nov/2025 02:11:21] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:11:21,453 — 127.0.0.1 - - [07/Nov/2025 02:11:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:11:26,798 — 127.0.0.1 - - [07/Nov/2025 02:11:26] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:11:26,871 — 127.0.0.1 - - [07/Nov/2025 02:11:26] "GET /users/profile HTTP/1.1" 200 -
+2025-11-07 02:11:26,919 — 127.0.0.1 - - [07/Nov/2025 02:11:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:11:40,601 — 127.0.0.1 - - [07/Nov/2025 02:11:40] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:11:40,640 — 127.0.0.1 - - [07/Nov/2025 02:11:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:11:41,354 — 127.0.0.1 - - [07/Nov/2025 02:11:41] "GET /users/profile HTTP/1.1" 200 -
+2025-11-07 02:11:41,406 — 127.0.0.1 - - [07/Nov/2025 02:11:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:11:42,062 — 127.0.0.1 - - [07/Nov/2025 02:11:42] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:11:42,093 — 127.0.0.1 - - [07/Nov/2025 02:11:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:11:46,422 — 127.0.0.1 - - [07/Nov/2025 02:11:46] "POST /users/login HTTP/1.1" 200 -
+2025-11-07 02:11:46,450 — 127.0.0.1 - - [07/Nov/2025 02:11:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:11:59,279 — 127.0.0.1 - - [07/Nov/2025 02:11:59] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:11:59,285 — 127.0.0.1 - - [07/Nov/2025 02:11:59] "GET /users/profile HTTP/1.1" 200 -
+2025-11-07 02:11:59,341 — 127.0.0.1 - - [07/Nov/2025 02:11:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:13:51,568 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-11-07 02:13:51,568 — [33mPress CTRL+C to quit[0m
+2025-11-07 02:13:51,570 —  * Restarting with stat
+2025-11-07 02:13:52,283 —  * Debugger is active!
+2025-11-07 02:13:52,288 —  * Debugger PIN: 323-008-109
+2025-11-07 02:13:54,864 — 127.0.0.1 - - [07/Nov/2025 02:13:54] "GET /users/profile HTTP/1.1" 200 -
+2025-11-07 02:13:54,982 — 127.0.0.1 - - [07/Nov/2025 02:13:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:13:56,066 — 127.0.0.1 - - [07/Nov/2025 02:13:56] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:13:56,093 — 127.0.0.1 - - [07/Nov/2025 02:13:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:16:47,651 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-11-07 02:16:47,727 —  * Restarting with stat
+2025-11-07 02:16:48,228 —  * Debugger is active!
+2025-11-07 02:16:48,230 —  * Debugger PIN: 323-008-109
+2025-11-07 02:17:10,116 — 127.0.0.1 - - [07/Nov/2025 02:17:10] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:17:10,201 — 127.0.0.1 - - [07/Nov/2025 02:17:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:17:22,898 — 127.0.0.1 - - [07/Nov/2025 02:17:22] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:17:22,905 — 127.0.0.1 - - [07/Nov/2025 02:17:22] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:17:22,943 — 127.0.0.1 - - [07/Nov/2025 02:17:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:17:45,414 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-11-07 02:17:45,550 —  * Restarting with stat
+2025-11-07 02:17:46,531 —  * Debugger is active!
+2025-11-07 02:17:46,534 —  * Debugger PIN: 323-008-109
+2025-11-07 02:17:47,996 — 127.0.0.1 - - [07/Nov/2025 02:17:47] "GET /users/profile HTTP/1.1" 200 -
+2025-11-07 02:17:48,081 — 127.0.0.1 - - [07/Nov/2025 02:17:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:17:49,993 — 127.0.0.1 - - [07/Nov/2025 02:17:49] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:17:50,019 — 127.0.0.1 - - [07/Nov/2025 02:17:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:17:50,697 — 127.0.0.1 - - [07/Nov/2025 02:17:50] "GET /users/profile HTTP/1.1" 200 -
+2025-11-07 02:17:50,741 — 127.0.0.1 - - [07/Nov/2025 02:17:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:17:53,303 — 127.0.0.1 - - [07/Nov/2025 02:17:53] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:17:53,335 — 127.0.0.1 - - [07/Nov/2025 02:17:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:17:59,882 — 127.0.0.1 - - [07/Nov/2025 02:17:59] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:17:59,891 — 127.0.0.1 - - [07/Nov/2025 02:17:59] "GET /users/profile HTTP/1.1" 200 -
+2025-11-07 02:17:59,960 — 127.0.0.1 - - [07/Nov/2025 02:17:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:18:29,136 — 127.0.0.1 - - [07/Nov/2025 02:18:29] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:18:29,168 — 127.0.0.1 - - [07/Nov/2025 02:18:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:18:34,319 — 127.0.0.1 - - [07/Nov/2025 02:18:34] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:18:34,336 — 127.0.0.1 - - [07/Nov/2025 02:18:34] "GET /users/profile HTTP/1.1" 200 -
+2025-11-07 02:18:34,390 — 127.0.0.1 - - [07/Nov/2025 02:18:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:18:47,495 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-11-07 02:18:47,573 —  * Restarting with stat
+2025-11-07 02:18:48,117 —  * Debugger is active!
+2025-11-07 02:18:48,120 —  * Debugger PIN: 323-008-109
+2025-11-07 02:19:56,412 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-11-07 02:19:56,537 —  * Restarting with stat
+2025-11-07 02:19:57,332 —  * Debugger is active!
+2025-11-07 02:19:57,335 —  * Debugger PIN: 323-008-109
+2025-11-07 02:20:29,446 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-11-07 02:20:29,542 —  * Restarting with stat
+2025-11-07 02:20:30,365 —  * Debugger is active!
+2025-11-07 02:20:30,370 —  * Debugger PIN: 323-008-109
+2025-11-07 02:20:47,443 — 127.0.0.1 - - [07/Nov/2025 02:20:47] "GET /users/profile HTTP/1.1" 200 -
+2025-11-07 02:20:47,540 — 127.0.0.1 - - [07/Nov/2025 02:20:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:20:48,862 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,872 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,881 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,888 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,900 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,906 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,916 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,932 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,938 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,947 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,962 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,968 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,976 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,991 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:48,999 — 127.0.0.1 - - [07/Nov/2025 02:20:48] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:49,004 — 127.0.0.1 - - [07/Nov/2025 02:20:49] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:49,013 — 127.0.0.1 - - [07/Nov/2025 02:20:49] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:49,034 — 127.0.0.1 - - [07/Nov/2025 02:20:49] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:49,043 — 127.0.0.1 - - [07/Nov/2025 02:20:49] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:49,062 — 127.0.0.1 - - [07/Nov/2025 02:20:49] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,285 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,295 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,303 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,313 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,323 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,337 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,369 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,380 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,387 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,397 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,406 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,415 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,430 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,436 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,460 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,472 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,481 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,488 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,504 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:50,513 — 127.0.0.1 - - [07/Nov/2025 02:20:50] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,735 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,743 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,754 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,770 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,787 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,796 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,802 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,810 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,818 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,827 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,837 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,846 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,860 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,866 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,873 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,889 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,906 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,914 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,921 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:20:53,931 — 127.0.0.1 - - [07/Nov/2025 02:20:53] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:21:40,734 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-11-07 02:21:40,811 —  * Restarting with stat
+2025-11-07 02:22:23,017 —  * Restarting with stat
+2025-11-07 02:22:24,759 —  * Debugger is active!
+2025-11-07 02:22:24,765 —  * Debugger PIN: 323-008-109
+2025-11-07 02:22:25,513 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,527 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,534 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,548 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,556 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,566 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,573 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,584 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,598 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,605 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,621 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,630 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,645 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,651 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,662 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,670 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,686 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,699 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,707 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:25,717 — 127.0.0.1 - - [07/Nov/2025 02:22:25] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,867 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,873 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,887 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,917 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,926 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,933 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,939 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,948 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,955 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,963 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,971 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,982 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:26,994 — 127.0.0.1 - - [07/Nov/2025 02:22:26] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:27,006 — 127.0.0.1 - - [07/Nov/2025 02:22:27] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:27,014 — 127.0.0.1 - - [07/Nov/2025 02:22:27] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:27,022 — 127.0.0.1 - - [07/Nov/2025 02:22:27] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:27,036 — 127.0.0.1 - - [07/Nov/2025 02:22:27] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:27,045 — 127.0.0.1 - - [07/Nov/2025 02:22:27] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:27,052 — 127.0.0.1 - - [07/Nov/2025 02:22:27] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:22:27,066 — 127.0.0.1 - - [07/Nov/2025 02:22:27] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:24:29,036 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-11-07 02:24:29,103 —  * Restarting with stat
+2025-11-07 02:24:29,550 —  * Debugger is active!
+2025-11-07 02:24:29,553 —  * Debugger PIN: 323-008-109
+2025-11-07 02:24:37,095 — 127.0.0.1 - - [07/Nov/2025 02:24:37] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:24:37,221 — 127.0.0.1 - - [07/Nov/2025 02:24:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:24:40,885 — 127.0.0.1 - - [07/Nov/2025 02:24:40] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:24:40,917 — 127.0.0.1 - - [07/Nov/2025 02:24:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:24:48,764 — 127.0.0.1 - - [07/Nov/2025 02:24:48] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:24:48,770 — 127.0.0.1 - - [07/Nov/2025 02:24:48] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:24:48,800 — 127.0.0.1 - - [07/Nov/2025 02:24:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:24:55,569 — 127.0.0.1 - - [07/Nov/2025 02:24:55] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:24:55,610 — 127.0.0.1 - - [07/Nov/2025 02:24:55] "GET /users/profile HTTP/1.1" 200 -
+2025-11-07 02:24:55,657 — 127.0.0.1 - - [07/Nov/2025 02:24:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:25:04,680 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-11-07 02:25:04,772 —  * Restarting with stat
+2025-11-07 02:25:05,599 —  * Debugger is active!
+2025-11-07 02:25:05,601 —  * Debugger PIN: 323-008-109
+2025-11-07 02:26:12,120 — 127.0.0.1 - - [07/Nov/2025 02:26:12] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:26:12,205 — 127.0.0.1 - - [07/Nov/2025 02:26:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:26:26,781 — 127.0.0.1 - - [07/Nov/2025 02:26:26] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:26:26,804 — 127.0.0.1 - - [07/Nov/2025 02:26:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:26:29,573 — 127.0.0.1 - - [07/Nov/2025 02:26:29] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-07 02:26:29,582 — 127.0.0.1 - - [07/Nov/2025 02:26:29] "GET /users/login HTTP/1.1" 200 -
+2025-11-07 02:26:29,608 — 127.0.0.1 - - [07/Nov/2025 02:26:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-07 02:27:12,067 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-11-07 02:27:12,323 —  * Restarting with stat
+2025-11-07 02:27:13,072 —  * Debugger is active!
+2025-11-07 02:27:13,079 —  * Debugger PIN: 323-008-109
