@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('.static', filename='css/posts.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="myclass"><h1>Articles</h1></div>
+
+
+<div class="container mt-5">
+    <form action="{{ url_for('posts.create_post') }}" class="mb-4">
+        <button type="submit" class="btn btn-primary">Add post</button>
+    </form>
+    <div class="row">
+        {% for post in posts %}
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <img src="{{ url_for('.static', filename='img/default.png') }}"
+                     class="card-img-top" height="150px">
+                <div class="card-body">
+                    <h5 class="card-title">{{ post["title"] | title }}</h5>
+                    <p class="card-text">Post ID: {{ post["id"] }}</p>
+                    <p class="card-text">{{ post["content"] | truncate(23) }}</p>
+                    <div class="mt-auto">
+                        <a href="{{ url_for('posts.detail', id=post.id) }}" 
+                           class="btn btn-primary btn-sm">View details</a>
+                        <a href="{{ url_for('posts.update_post', id=post.id) }}" 
+                           class="btn btn-warning btn-sm">Edit</a>
+                        <a href="{{ url_for('posts.delete_post', id=post.id) }}" 
+                           class="btn btn-danger btn-sm">Delete</a>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                    <small>Created: {{ post.posted.strftime('%Y-%m-%d %H:%M') if post.posted else 'N/A' }}</small>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <div class="col-12">
+            <div class="alert alert-info" role="alert">
+                No posts available. Create your first post!
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

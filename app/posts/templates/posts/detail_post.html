@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ post.title }}</h1>
+
+<p>{{ post.content }}</p>
+
+<p>Дата публікації: {{ post.posted }}</p>
+<p>Автор: {{ post.author }}</p>
+<p>Активний: {{ post.is_active }}</p>
+
+
+<a href="/posts/{{ post.id }}/update">Edit</a>
+<br>
+<a href="/posts/{{ post.id }}/delete" class="btn btn-primary">
+            Видалити
+</a>
+<br>
+<a href="{{ url_for('posts.posts') }}">Назад</a>
+{% endblock %}

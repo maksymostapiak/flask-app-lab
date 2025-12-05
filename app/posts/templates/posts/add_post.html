@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% from "components/form_field.html" import render_field %}
+
+{% block content %}
+<h2 class="mb-4 text-center">
+    {% if post %} Редагувати пост {% else %} Створити пост {% endif %}
+</h2>
+
+<form method="POST">
+    {{ form.hidden_tag() }}
+
+    {{ render_field(form.title) }}
+    {{ render_field(form.content) }}
+
+    <div class="col-12 mb-3">
+        <div class="form-check">
+            {{ form.is_active(class="form-check-input") }}
+            <label class="form-check-label" for="{{ form.is_active.id }}">
+                {{ form.is_active.label.text }}
+            </label>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        {% if post %} Оновити {% else %} Додати пост {% endif %}
+    </button>
+
+    <a href="{{ url_for('posts.posts') }}" class="btn btn-light">Назад</a>
+</form>
+
+{% endblock %}
