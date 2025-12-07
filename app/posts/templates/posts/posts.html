@@ -32,7 +32,15 @@
                     </div>
                 </div>
                 <div class="card-footer text-muted">
-                    <small>Created: {{ post.posted.strftime('%Y-%m-%d %H:%M') if post.posted else 'N/A' }}</small>
+                    <small>Created: {{ post.posted.strftime('%Y-%m-%d %H:%M') if post.posted else 'N/A' }}</small><br>
+                    <small>
+                        Tags:
+                        {% if post.tags %}
+                            {{ post.tags | map(attribute='name') | join('/ ') }}
+                        {% else %}
+                            N/A
+                        {% endif %}
+                    </small>
                 </div>
             </div>
         </div>

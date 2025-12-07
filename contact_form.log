@@ -1879,3 +1879,135 @@
 2025-12-05 06:14:02,693 — 127.0.0.1 - - [05/Dec/2025 06:14:02] "[36mGET /posts/static/css/posts.css HTTP/1.1[0m" 304 -
 2025-12-05 06:14:02,696 — 127.0.0.1 - - [05/Dec/2025 06:14:02] "[36mGET /posts/static/img/default.png HTTP/1.1[0m" 304 -
 2025-12-05 06:14:02,696 — 127.0.0.1 - - [05/Dec/2025 06:14:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:11:11,911 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-07 22:11:11,924 — [33mPress CTRL+C to quit[0m
+2025-12-07 22:11:11,926 —  * Restarting with stat
+2025-12-07 22:11:12,873 —  * Debugger is active!
+2025-12-07 22:11:12,878 —  * Debugger PIN: 323-008-109
+2025-12-07 22:11:30,652 — 127.0.0.1 - - [07/Dec/2025 22:11:30] "GET /posts/ HTTP/1.1" 200 -
+2025-12-07 22:11:30,921 — 127.0.0.1 - - [07/Dec/2025 22:11:30] "GET /static/style.css HTTP/1.1" 200 -
+2025-12-07 22:11:30,960 — 127.0.0.1 - - [07/Dec/2025 22:11:30] "GET /posts/static/css/posts.css HTTP/1.1" 200 -
+2025-12-07 22:11:30,964 — 127.0.0.1 - - [07/Dec/2025 22:11:30] "GET /posts/static/img/default.png HTTP/1.1" 200 -
+2025-12-07 22:11:31,092 — 127.0.0.1 - - [07/Dec/2025 22:11:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-07 22:11:41,327 — 127.0.0.1 - - [07/Dec/2025 22:11:41] "[35m[1mGET /posts/create HTTP/1.1[0m" 500 -
+2025-12-07 22:11:41,420 — 127.0.0.1 - - [07/Dec/2025 22:11:41] "GET /posts/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-07 22:11:41,455 — 127.0.0.1 - - [07/Dec/2025 22:11:41] "GET /posts/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-07 22:11:41,562 — 127.0.0.1 - - [07/Dec/2025 22:11:41] "GET /posts/create?__debugger__=yes&cmd=resource&f=console.png&s=mrvSscPWzG6puy0pd8yx HTTP/1.1" 200 -
+2025-12-07 22:11:41,589 — 127.0.0.1 - - [07/Dec/2025 22:11:41] "GET /posts/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-07 22:12:37,336 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\posts\\views.py', reloading
+2025-12-07 22:12:37,538 —  * Restarting with stat
+2025-12-07 22:12:39,693 —  * Debugger is active!
+2025-12-07 22:12:39,696 —  * Debugger PIN: 323-008-109
+2025-12-07 22:12:39,961 — 127.0.0.1 - - [07/Dec/2025 22:12:39] "GET /posts/create HTTP/1.1" 200 -
+2025-12-07 22:12:40,054 — 127.0.0.1 - - [07/Dec/2025 22:12:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:20:26,896 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-07 22:20:26,916 — [33mPress CTRL+C to quit[0m
+2025-12-07 22:20:26,920 —  * Restarting with stat
+2025-12-07 22:20:28,581 —  * Debugger is active!
+2025-12-07 22:20:28,586 —  * Debugger PIN: 323-008-109
+2025-12-07 22:20:29,051 — 127.0.0.1 - - [07/Dec/2025 22:20:29] "GET /posts/create HTTP/1.1" 200 -
+2025-12-07 22:20:29,180 — 127.0.0.1 - - [07/Dec/2025 22:20:29] "GET /static/style.css HTTP/1.1" 200 -
+2025-12-07 22:20:29,350 — 127.0.0.1 - - [07/Dec/2025 22:20:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-07 22:20:33,504 — 127.0.0.1 - - [07/Dec/2025 22:20:33] "GET / HTTP/1.1" 200 -
+2025-12-07 22:20:33,542 — 127.0.0.1 - - [07/Dec/2025 22:20:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:20:33,547 — 127.0.0.1 - - [07/Dec/2025 22:20:33] "GET /static/img/photo.jpg HTTP/1.1" 200 -
+2025-12-07 22:20:34,745 — 127.0.0.1 - - [07/Dec/2025 22:20:34] "GET /posts/ HTTP/1.1" 200 -
+2025-12-07 22:20:34,777 — 127.0.0.1 - - [07/Dec/2025 22:20:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:20:34,789 — 127.0.0.1 - - [07/Dec/2025 22:20:34] "GET /posts/static/css/posts.css HTTP/1.1" 200 -
+2025-12-07 22:20:34,812 — 127.0.0.1 - - [07/Dec/2025 22:20:34] "GET /posts/static/img/default.png HTTP/1.1" 200 -
+2025-12-07 22:20:36,079 — 127.0.0.1 - - [07/Dec/2025 22:20:36] "GET /posts/create HTTP/1.1" 200 -
+2025-12-07 22:20:36,106 — 127.0.0.1 - - [07/Dec/2025 22:20:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:21:30,664 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\posts\\models.py', reloading
+2025-12-07 22:21:31,085 —  * Restarting with stat
+2025-12-07 22:22:14,019 —  * Restarting with stat
+2025-12-07 22:22:15,555 —  * Debugger is active!
+2025-12-07 22:22:15,560 —  * Debugger PIN: 323-008-109
+2025-12-07 22:22:59,402 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\posts\\models.py', reloading
+2025-12-07 22:22:59,664 —  * Restarting with stat
+2025-12-07 22:23:01,748 —  * Debugger is active!
+2025-12-07 22:23:01,772 —  * Debugger PIN: 323-008-109
+2025-12-07 22:24:15,637 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\posts\\models.py', reloading
+2025-12-07 22:24:15,824 —  * Restarting with stat
+2025-12-07 22:24:16,911 —  * Debugger is active!
+2025-12-07 22:24:16,914 —  * Debugger PIN: 323-008-109
+2025-12-07 22:28:01,637 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\posts\\forms.py', reloading
+2025-12-07 22:28:01,998 —  * Restarting with stat
+2025-12-07 22:28:04,944 —  * Debugger is active!
+2025-12-07 22:28:04,947 —  * Debugger PIN: 323-008-109
+2025-12-07 22:28:19,681 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\posts\\forms.py', reloading
+2025-12-07 22:28:19,888 —  * Restarting with stat
+2025-12-07 22:28:21,128 —  * Debugger is active!
+2025-12-07 22:28:21,131 —  * Debugger PIN: 323-008-109
+2025-12-07 22:28:26,584 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\posts\\forms.py', reloading
+2025-12-07 22:28:27,123 —  * Restarting with stat
+2025-12-07 22:28:28,624 —  * Debugger is active!
+2025-12-07 22:28:28,627 —  * Debugger PIN: 323-008-109
+2025-12-07 22:28:52,772 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\posts\\views.py', reloading
+2025-12-07 22:28:52,952 —  * Restarting with stat
+2025-12-07 22:28:54,787 —  * Debugger is active!
+2025-12-07 22:28:54,790 —  * Debugger PIN: 323-008-109
+2025-12-07 22:29:35,929 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\posts\\views.py', reloading
+2025-12-07 22:29:36,129 —  * Restarting with stat
+2025-12-07 22:29:37,096 —  * Debugger is active!
+2025-12-07 22:29:37,100 —  * Debugger PIN: 323-008-109
+2025-12-07 22:29:56,731 — 127.0.0.1 - - [07/Dec/2025 22:29:56] "[35m[1mGET /posts/create HTTP/1.1[0m" 500 -
+2025-12-07 22:29:56,937 — 127.0.0.1 - - [07/Dec/2025 22:29:56] "GET /posts/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-07 22:29:56,966 — 127.0.0.1 - - [07/Dec/2025 22:29:56] "GET /posts/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-07 22:29:57,066 — 127.0.0.1 - - [07/Dec/2025 22:29:57] "GET /posts/create?__debugger__=yes&cmd=resource&f=console.png&s=Q9UIp68OAUswQJtaBUx8 HTTP/1.1" 200 -
+2025-12-07 22:29:57,080 — 127.0.0.1 - - [07/Dec/2025 22:29:57] "GET /posts/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-07 22:30:28,631 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\posts\\views.py', reloading
+2025-12-07 22:30:28,854 —  * Restarting with stat
+2025-12-07 22:30:30,738 —  * Debugger is active!
+2025-12-07 22:30:30,741 —  * Debugger PIN: 828-056-383
+2025-12-07 22:31:10,809 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\posts\\views.py', reloading
+2025-12-07 22:31:11,201 —  * Restarting with stat
+2025-12-07 22:31:13,123 —  * Debugger is active!
+2025-12-07 22:31:13,132 —  * Debugger PIN: 323-008-109
+2025-12-07 22:31:13,830 — 127.0.0.1 - - [07/Dec/2025 22:31:13] "[35m[1mGET /posts/create HTTP/1.1[0m" 500 -
+2025-12-07 22:31:13,913 — 127.0.0.1 - - [07/Dec/2025 22:31:13] "[36mGET /posts/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:31:13,933 — 127.0.0.1 - - [07/Dec/2025 22:31:13] "[36mGET /posts/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-07 22:31:13,975 — 127.0.0.1 - - [07/Dec/2025 22:31:13] "GET /posts/create?__debugger__=yes&cmd=resource&f=console.png&s=xqSyVwdlD2aLpxKAHRrT HTTP/1.1" 200 -
+2025-12-07 22:31:14,003 — 127.0.0.1 - - [07/Dec/2025 22:31:14] "[36mGET /posts/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-07 22:32:12,503 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-07 22:32:12,503 — [33mPress CTRL+C to quit[0m
+2025-12-07 22:32:12,505 —  * Restarting with stat
+2025-12-07 22:32:13,612 —  * Debugger is active!
+2025-12-07 22:32:13,615 —  * Debugger PIN: 323-008-109
+2025-12-07 22:32:15,089 — 127.0.0.1 - - [07/Dec/2025 22:32:15] "GET /posts/create HTTP/1.1" 200 -
+2025-12-07 22:32:15,172 — 127.0.0.1 - - [07/Dec/2025 22:32:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:33:56,101 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-07 22:33:56,101 — [33mPress CTRL+C to quit[0m
+2025-12-07 22:33:56,103 —  * Restarting with stat
+2025-12-07 22:33:57,319 —  * Debugger is active!
+2025-12-07 22:33:57,323 —  * Debugger PIN: 323-008-109
+2025-12-07 22:33:58,853 — 127.0.0.1 - - [07/Dec/2025 22:33:58] "GET /posts/create HTTP/1.1" 200 -
+2025-12-07 22:33:58,942 — 127.0.0.1 - - [07/Dec/2025 22:33:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:34:21,339 — 127.0.0.1 - - [07/Dec/2025 22:34:21] "[32mPOST /posts/create HTTP/1.1[0m" 302 -
+2025-12-07 22:34:21,382 — 127.0.0.1 - - [07/Dec/2025 22:34:21] "GET /posts/ HTTP/1.1" 200 -
+2025-12-07 22:34:21,439 — 127.0.0.1 - - [07/Dec/2025 22:34:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:34:21,442 — 127.0.0.1 - - [07/Dec/2025 22:34:21] "[36mGET /posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-07 22:34:21,442 — 127.0.0.1 - - [07/Dec/2025 22:34:21] "[36mGET /posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-07 22:34:26,443 — 127.0.0.1 - - [07/Dec/2025 22:34:26] "GET /posts/4 HTTP/1.1" 200 -
+2025-12-07 22:34:26,473 — 127.0.0.1 - - [07/Dec/2025 22:34:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:34:29,390 — 127.0.0.1 - - [07/Dec/2025 22:34:29] "GET /posts/4/update HTTP/1.1" 200 -
+2025-12-07 22:34:29,422 — 127.0.0.1 - - [07/Dec/2025 22:34:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:39:12,525 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\posts\\views.py', reloading
+2025-12-07 22:39:12,752 —  * Restarting with stat
+2025-12-07 22:39:14,113 —  * Debugger is active!
+2025-12-07 22:39:14,116 —  * Debugger PIN: 323-008-109
+2025-12-07 22:39:20,654 — 127.0.0.1 - - [07/Dec/2025 22:39:20] "GET /posts/4/update HTTP/1.1" 200 -
+2025-12-07 22:39:20,754 — 127.0.0.1 - - [07/Dec/2025 22:39:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:39:30,683 — 127.0.0.1 - - [07/Dec/2025 22:39:30] "GET /posts/2/update HTTP/1.1" 200 -
+2025-12-07 22:39:30,712 — 127.0.0.1 - - [07/Dec/2025 22:39:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:41:01,017 — 127.0.0.1 - - [07/Dec/2025 22:41:01] "GET /posts/ HTTP/1.1" 200 -
+2025-12-07 22:41:01,047 — 127.0.0.1 - - [07/Dec/2025 22:41:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:41:01,054 — 127.0.0.1 - - [07/Dec/2025 22:41:01] "[36mGET /posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-07 22:41:01,055 — 127.0.0.1 - - [07/Dec/2025 22:41:01] "[36mGET /posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-07 22:41:18,486 — 127.0.0.1 - - [07/Dec/2025 22:41:18] "GET /posts/ HTTP/1.1" 200 -
+2025-12-07 22:41:18,518 — 127.0.0.1 - - [07/Dec/2025 22:41:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-07 22:41:18,521 — 127.0.0.1 - - [07/Dec/2025 22:41:18] "[36mGET /posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-07 22:41:18,526 — 127.0.0.1 - - [07/Dec/2025 22:41:18] "[36mGET /posts/static/css/posts.css HTTP/1.1[0m" 304 -

@@ -29,6 +29,7 @@ def create_app(config_class=None):
     migrate.init_app(app, db)
     from app.posts.models import Post
     from app.products.models import Product
+    from app.users.models import User
     from app.users.views import users_bp
     from app.products.views import products_bp
     from app.views import views_bp
