@@ -1,8 +1,19 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+from sqlalchemy import MetaData
+from sqlalchemy.orm import DeclarativeBase
 
-db = SQLAlchemy()
+class Base(DeclarativeBase):
+    metadata = MetaData(naming_convention={
+        "ix": 'ix_%(column_0_label)s',
+        "uq": "uq_%(table_name)s_%(column_0_name)s",
+        "ck": "ck_%(table_name)s_%(constraint_name)s",
+        "fk": "fk_%(table_name)s_%(column_0_name)s_%(referred_table_name)s",
+        "pk": "pk_%(table_name)s"
+    })
+
+db = SQLAlchemy(model_class=Base)
 migrate = Migrate()
 
 
@@ -17,6 +28,7 @@ def create_app(config_class=None):
     db.init_app(app)
     migrate.init_app(app, db)
     from app.posts.models import Post
+    from app.products.models import Product
     from app.users.views import users_bp
     from app.products.views import products_bp
     from app.views import views_bp
