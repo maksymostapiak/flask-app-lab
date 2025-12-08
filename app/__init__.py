@@ -4,7 +4,9 @@ from flask_migrate import Migrate
 from sqlalchemy import MetaData
 from sqlalchemy.orm import DeclarativeBase
 from flask_bcrypt import Bcrypt
+from flask_login import LoginManager
 
+login_manager = LoginManager()
 bcrypt = Bcrypt()
 
 class Base(DeclarativeBase):
@@ -32,6 +34,12 @@ def create_app(config_class=None):
     db.init_app(app)
     migrate.init_app(app, db)
     bcrypt.init_app(app)
+    login_manager.init_app(app)
+
+    login_manager.login_view = 'users.login'
+    login_manager.login_message = 'Please log in to access this page.'
+    login_manager.login_message_category = 'warning'
+
     from app.posts.models import Post
     from app.products.models import Product
     from app.users.models import User
@@ -48,5 +56,10 @@ def create_app(config_class=None):
     @app.errorhandler(404)
     def not_found(e):
         return render_template("404.html"), 404
+    @login_manager.user_loader
+    def load_user(user_id):
+        return User.query.get(int(user_id))
+
+        
 
     return app
