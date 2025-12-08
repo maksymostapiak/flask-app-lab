@@ -3,6 +3,9 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from sqlalchemy import MetaData
 from sqlalchemy.orm import DeclarativeBase
+from flask_bcrypt import Bcrypt
+
+bcrypt = Bcrypt()
 
 class Base(DeclarativeBase):
     metadata = MetaData(naming_convention={
@@ -17,6 +20,7 @@ db = SQLAlchemy(model_class=Base)
 migrate = Migrate()
 
 
+
 def create_app(config_class=None):
     app = Flask(__name__)
 
@@ -27,6 +31,7 @@ def create_app(config_class=None):
     app.config.from_object(config_class)
     db.init_app(app)
     migrate.init_app(app, db)
+    bcrypt.init_app(app)
     from app.posts.models import Post
     from app.products.models import Product
     from app.users.models import User
