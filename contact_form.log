@@ -2422,3 +2422,100 @@
 2025-12-08 05:06:54,384 —  * Restarting with stat
 2025-12-08 05:06:55,621 —  * Debugger is active!
 2025-12-08 05:06:55,624 —  * Debugger PIN: 323-008-109
+2025-12-08 12:08:51,487 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-08 12:08:51,489 — [33mPress CTRL+C to quit[0m
+2025-12-08 12:08:51,491 —  * Restarting with stat
+2025-12-08 12:08:53,173 —  * Debugger is active!
+2025-12-08 12:08:53,177 —  * Debugger PIN: 323-008-109
+2025-12-08 12:08:53,306 — 127.0.0.1 - - [08/Dec/2025 12:08:53] "GET /contacts HTTP/1.1" 200 -
+2025-12-08 12:08:53,506 — 127.0.0.1 - - [08/Dec/2025 12:08:53] "GET /static/style.css HTTP/1.1" 200 -
+2025-12-08 12:08:53,610 — 127.0.0.1 - - [08/Dec/2025 12:08:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-08 12:08:57,152 — 127.0.0.1 - - [08/Dec/2025 12:08:57] "GET /users/login?next=/users/account HTTP/1.1" 200 -
+2025-12-08 12:08:57,294 — 127.0.0.1 - - [08/Dec/2025 12:08:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:08:59,663 — 127.0.0.1 - - [08/Dec/2025 12:08:59] "[32mGET /users/users HTTP/1.1[0m" 302 -
+2025-12-08 12:08:59,674 — 127.0.0.1 - - [08/Dec/2025 12:08:59] "GET /users/login?next=/users/users HTTP/1.1" 200 -
+2025-12-08 12:08:59,706 — 127.0.0.1 - - [08/Dec/2025 12:08:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:09:20,050 — 127.0.0.1 - - [08/Dec/2025 12:09:20] "[35m[1mPOST /users/login HTTP/1.1[0m" 500 -
+2025-12-08 12:09:20,136 — 127.0.0.1 - - [08/Dec/2025 12:09:20] "GET /users/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-08 12:09:20,259 — 127.0.0.1 - - [08/Dec/2025 12:09:20] "GET /users/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-08 12:09:20,394 — 127.0.0.1 - - [08/Dec/2025 12:09:20] "GET /users/login?__debugger__=yes&cmd=resource&f=console.png&s=we1b51GqxMQjCkLVteNL HTTP/1.1" 200 -
+2025-12-08 12:09:20,409 — 127.0.0.1 - - [08/Dec/2025 12:09:20] "GET /users/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-08 12:09:48,060 — 127.0.0.1 - - [08/Dec/2025 12:09:48] "[35m[1mPOST /users/login HTTP/1.1[0m" 500 -
+2025-12-08 12:09:48,109 — 127.0.0.1 - - [08/Dec/2025 12:09:48] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:09:48,160 — 127.0.0.1 - - [08/Dec/2025 12:09:48] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-08 12:09:48,209 — 127.0.0.1 - - [08/Dec/2025 12:09:48] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png&s=we1b51GqxMQjCkLVteNL HTTP/1.1[0m" 304 -
+2025-12-08 12:09:48,222 — 127.0.0.1 - - [08/Dec/2025 12:09:48] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-08 12:09:50,730 — 127.0.0.1 - - [08/Dec/2025 12:09:50] "GET /users/login?next=/users/users HTTP/1.1" 200 -
+2025-12-08 12:10:03,784 — 127.0.0.1 - - [08/Dec/2025 12:10:03] "POST /users/login HTTP/1.1" 200 -
+2025-12-08 12:10:03,818 — 127.0.0.1 - - [08/Dec/2025 12:10:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:10:08,954 — 127.0.0.1 - - [08/Dec/2025 12:10:08] "[35m[1mPOST /users/login HTTP/1.1[0m" 500 -
+2025-12-08 12:10:08,987 — 127.0.0.1 - - [08/Dec/2025 12:10:08] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:10:09,040 — 127.0.0.1 - - [08/Dec/2025 12:10:09] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-08 12:10:09,057 — 127.0.0.1 - - [08/Dec/2025 12:10:09] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png&s=we1b51GqxMQjCkLVteNL HTTP/1.1[0m" 304 -
+2025-12-08 12:10:09,092 — 127.0.0.1 - - [08/Dec/2025 12:10:09] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-08 12:10:11,670 — 127.0.0.1 - - [08/Dec/2025 12:10:11] "GET /users/register HTTP/1.1" 200 -
+2025-12-08 12:10:11,706 — 127.0.0.1 - - [08/Dec/2025 12:10:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:10:18,794 — 127.0.0.1 - - [08/Dec/2025 12:10:18] "[35m[1mPOST /users/register HTTP/1.1[0m" 500 -
+2025-12-08 12:10:18,863 — 127.0.0.1 - - [08/Dec/2025 12:10:18] "GET /users/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-08 12:10:18,889 — 127.0.0.1 - - [08/Dec/2025 12:10:18] "GET /users/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-08 12:10:18,920 — 127.0.0.1 - - [08/Dec/2025 12:10:18] "GET /users/register?__debugger__=yes&cmd=resource&f=console.png&s=we1b51GqxMQjCkLVteNL HTTP/1.1" 200 -
+2025-12-08 12:10:18,943 — 127.0.0.1 - - [08/Dec/2025 12:10:18] "GET /users/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-08 12:14:49,808 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-08 12:14:49,808 — [33mPress CTRL+C to quit[0m
+2025-12-08 12:14:49,810 —  * Restarting with stat
+2025-12-08 12:14:51,538 —  * Debugger is active!
+2025-12-08 12:14:51,541 —  * Debugger PIN: 323-008-109
+2025-12-08 12:14:53,101 — 127.0.0.1 - - [08/Dec/2025 12:14:53] "[35m[1mPOST /users/register HTTP/1.1[0m" 500 -
+2025-12-08 12:14:53,257 — 127.0.0.1 - - [08/Dec/2025 12:14:53] "[36mGET /users/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:14:53,288 — 127.0.0.1 - - [08/Dec/2025 12:14:53] "[36mGET /users/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-08 12:14:53,338 — 127.0.0.1 - - [08/Dec/2025 12:14:53] "GET /users/register?__debugger__=yes&cmd=resource&f=console.png&s=cVZWNLXHXZvdBoiLLIYh HTTP/1.1" 200 -
+2025-12-08 12:14:53,353 — 127.0.0.1 - - [08/Dec/2025 12:14:53] "[36mGET /users/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-08 12:16:19,733 — Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.
+2025-12-08 12:17:49,749 — Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.
+2025-12-08 12:22:08,595 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-08 12:22:08,596 — [33mPress CTRL+C to quit[0m
+2025-12-08 12:22:08,599 —  * Restarting with stat
+2025-12-08 12:22:10,235 —  * Debugger is active!
+2025-12-08 12:22:10,238 —  * Debugger PIN: 323-008-109
+2025-12-08 12:22:13,039 — 127.0.0.1 - - [08/Dec/2025 12:22:13] "[32mPOST /users/register HTTP/1.1[0m" 302 -
+2025-12-08 12:22:13,097 — 127.0.0.1 - - [08/Dec/2025 12:22:13] "GET /users/login HTTP/1.1" 200 -
+2025-12-08 12:22:13,196 — 127.0.0.1 - - [08/Dec/2025 12:22:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:22:23,065 — 127.0.0.1 - - [08/Dec/2025 12:22:23] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-12-08 12:22:23,075 — 127.0.0.1 - - [08/Dec/2025 12:22:23] "GET /users/account HTTP/1.1" 200 -
+2025-12-08 12:22:23,118 — 127.0.0.1 - - [08/Dec/2025 12:22:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:22:37,236 — 127.0.0.1 - - [08/Dec/2025 12:22:37] "GET /users/users HTTP/1.1" 200 -
+2025-12-08 12:22:37,265 — 127.0.0.1 - - [08/Dec/2025 12:22:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:27:11,261 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-08 12:27:11,261 — [33mPress CTRL+C to quit[0m
+2025-12-08 12:27:11,263 —  * Restarting with stat
+2025-12-08 12:27:12,883 —  * Debugger is active!
+2025-12-08 12:27:12,886 —  * Debugger PIN: 323-008-109
+2025-12-08 12:27:13,372 — 127.0.0.1 - - [08/Dec/2025 12:27:13] "GET /users/users HTTP/1.1" 200 -
+2025-12-08 12:27:13,460 — 127.0.0.1 - - [08/Dec/2025 12:27:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:27:14,260 — 127.0.0.1 - - [08/Dec/2025 12:27:14] "GET /users/users HTTP/1.1" 200 -
+2025-12-08 12:27:14,291 — 127.0.0.1 - - [08/Dec/2025 12:27:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:27:14,964 — 127.0.0.1 - - [08/Dec/2025 12:27:14] "GET /contacts HTTP/1.1" 200 -
+2025-12-08 12:27:14,995 — 127.0.0.1 - - [08/Dec/2025 12:27:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:27:15,564 — 127.0.0.1 - - [08/Dec/2025 12:27:15] "GET /users/profile HTTP/1.1" 200 -
+2025-12-08 12:27:15,639 — 127.0.0.1 - - [08/Dec/2025 12:27:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:27:16,269 — 127.0.0.1 - - [08/Dec/2025 12:27:16] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-12-08 12:27:16,280 — 127.0.0.1 - - [08/Dec/2025 12:27:16] "GET /users/account HTTP/1.1" 200 -
+2025-12-08 12:27:16,312 — 127.0.0.1 - - [08/Dec/2025 12:27:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:27:16,911 — 127.0.0.1 - - [08/Dec/2025 12:27:16] "[32mGET /users/register HTTP/1.1[0m" 302 -
+2025-12-08 12:27:16,920 — 127.0.0.1 - - [08/Dec/2025 12:27:16] "GET /users/account HTTP/1.1" 200 -
+2025-12-08 12:27:16,962 — 127.0.0.1 - - [08/Dec/2025 12:27:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:27:18,074 — 127.0.0.1 - - [08/Dec/2025 12:27:18] "GET /users/users HTTP/1.1" 200 -
+2025-12-08 12:27:18,106 — 127.0.0.1 - - [08/Dec/2025 12:27:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:27:18,741 — 127.0.0.1 - - [08/Dec/2025 12:27:18] "GET /users/theme HTTP/1.1" 200 -
+2025-12-08 12:27:18,772 — 127.0.0.1 - - [08/Dec/2025 12:27:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:27:19,078 — 127.0.0.1 - - [08/Dec/2025 12:27:19] "[32mGET /users/register HTTP/1.1[0m" 302 -
+2025-12-08 12:27:19,087 — 127.0.0.1 - - [08/Dec/2025 12:27:19] "GET /users/account HTTP/1.1" 200 -
+2025-12-08 12:27:19,118 — 127.0.0.1 - - [08/Dec/2025 12:27:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:27:19,716 — 127.0.0.1 - - [08/Dec/2025 12:27:19] "GET /users/theme HTTP/1.1" 200 -
+2025-12-08 12:27:19,754 — 127.0.0.1 - - [08/Dec/2025 12:27:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-08 12:27:20,025 — 127.0.0.1 - - [08/Dec/2025 12:27:20] "GET /users/users HTTP/1.1" 200 -
+2025-12-08 12:27:20,055 — 127.0.0.1 - - [08/Dec/2025 12:27:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
