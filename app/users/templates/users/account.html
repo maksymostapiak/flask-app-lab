@@ -1,13 +1,70 @@
 {% extends "base.html" %}
+
 {% block content %}
-<div class="container mt-4">
-    <h2>Привіт, {{ user.username }}!</h2>
-    <p>Ви вдало зайшли у акаунт.</p>
-
-    <div class="alert alert-info">
-        <strong>Email:</strong> {{ user.email }}
+<div class="content-section">
+  <div class="media">
+    <div class="d-flex align-items-center mb-4">
+        <img class="rounded-circle account-img" src="{{ image_file }}" style="width: 125px; height: 125px; object-fit: cover; margin-right: 20px;">
+        <div class="media-body">
+          <h2 class="account-heading">{{ current_user.username }}</h2>
+          <p class="text-secondary">{{ current_user.email }}</p>
+        </div>
     </div>
+  </div>
+  
+  <form method="POST" action="" enctype="multipart/form-data">
+      {{ form.hidden_tag() }}
+      <fieldset class="form-group">
+          <legend class="border-bottom mb-4">Account Info</legend>
+          
+          <div class="form-group mb-3">
+              {{ form.username.label(class="form-control-label") }}
+              {% if form.username.errors %}
+                  {{ form.username(class="form-control is-invalid") }}
+                  <div class="invalid-feedback">
+                      {% for error in form.username.errors %}
+                          <span>{{ error }}</span>
+                      {% endfor %}
+                  </div>
+              {% else %}
+                  {{ form.username(class="form-control") }}
+              {% endif %}
+          </div>
 
-    <a href="{{ url_for('users.logout') }}" class="btn btn-danger">Вийти</a>
+          <div class="form-group mb-3">
+              {{ form.email.label(class="form-control-label") }}
+              {% if form.email.errors %}
+                  {{ form.email(class="form-control is-invalid") }}
+                  <div class="invalid-feedback">
+                      {% for error in form.email.errors %}
+                          <span>{{ error }}</span>
+                      {% endfor %}
+                  </div>
+              {% else %}
+                  {{ form.email(class="form-control") }}
+              {% endif %}
+          </div>
+            <div class="form-group mb-3">
+    {{ form.about_me.label(class="form-control-label") }}
+    {{ form.about_me(class="form-control") }}
+</div>
+          <div class="form-group mb-3">
+              {{ form.picture.label() }}
+              {{ form.picture(class="form-control-file") }}
+              {% if form.picture.errors %}
+                  {% for error in form.picture.errors %}
+                      <span class="text-danger d-block">{{ error }}</span>
+                  {% endfor %}
+              {% endif %}
+          </div>
+      </fieldset>
+      
+      <div class="form-group">
+          {{ form.submit(class="btn btn-outline-info") }}
+      </div>
+  </form>
+<a href="{{ url_for('users.change_password') }}" class="btn btn-warning btn-sm">
+    Змінити пароль
+</a>
 </div>
 {% endblock %}

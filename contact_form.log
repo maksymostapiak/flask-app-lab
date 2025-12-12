@@ -2519,3 +2519,215 @@
 2025-12-08 12:27:19,754 — 127.0.0.1 - - [08/Dec/2025 12:27:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2025-12-08 12:27:20,025 — 127.0.0.1 - - [08/Dec/2025 12:27:20] "GET /users/users HTTP/1.1" 200 -
 2025-12-08 12:27:20,055 — 127.0.0.1 - - [08/Dec/2025 12:27:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 01:13:12,389 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-12 01:13:12,412 — [33mPress CTRL+C to quit[0m
+2025-12-12 01:13:12,414 —  * Restarting with stat
+2025-12-12 01:13:13,542 —  * Debugger is active!
+2025-12-12 01:13:13,545 —  * Debugger PIN: 323-008-109
+2025-12-12 01:14:19,628 — 127.0.0.1 - - [12/Dec/2025 01:14:19] "GET / HTTP/1.1" 200 -
+2025-12-12 01:14:19,956 — 127.0.0.1 - - [12/Dec/2025 01:14:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 01:14:19,967 — 127.0.0.1 - - [12/Dec/2025 01:14:19] "GET /static/img/photo.jpg HTTP/1.1" 200 -
+2025-12-12 01:14:20,107 — 127.0.0.1 - - [12/Dec/2025 01:14:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-12 01:14:25,888 — 127.0.0.1 - - [12/Dec/2025 01:14:25] "GET /users/login HTTP/1.1" 200 -
+2025-12-12 01:14:25,924 — 127.0.0.1 - - [12/Dec/2025 01:14:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 01:14:34,638 — 127.0.0.1 - - [12/Dec/2025 01:14:34] "[35m[1mPOST /users/login HTTP/1.1[0m" 500 -
+2025-12-12 01:14:34,784 — 127.0.0.1 - - [12/Dec/2025 01:14:34] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-12 01:14:34,826 — 127.0.0.1 - - [12/Dec/2025 01:14:34] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-12 01:14:34,946 — 127.0.0.1 - - [12/Dec/2025 01:14:34] "GET /users/login?__debugger__=yes&cmd=resource&f=console.png&s=Y7i6jsvz86qBqRQvuHcL HTTP/1.1" 200 -
+2025-12-12 01:14:34,961 — 127.0.0.1 - - [12/Dec/2025 01:14:34] "[36mGET /users/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-12 01:16:53,340 — Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.
+2025-12-12 01:23:17,393 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-12 01:23:17,394 — [33mPress CTRL+C to quit[0m
+2025-12-12 01:23:17,397 —  * Restarting with stat
+2025-12-12 01:23:18,435 —  * Debugger is active!
+2025-12-12 01:23:18,438 —  * Debugger PIN: 323-008-109
+2025-12-12 01:23:22,761 — 127.0.0.1 - - [12/Dec/2025 01:23:22] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-12-12 01:23:22,990 — 127.0.0.1 - - [12/Dec/2025 01:23:22] "[35m[1mGET /users/account HTTP/1.1[0m" 500 -
+2025-12-12 01:23:23,134 — 127.0.0.1 - - [12/Dec/2025 01:23:23] "GET /users/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-12 01:23:23,135 — 127.0.0.1 - - [12/Dec/2025 01:23:23] "GET /users/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-12 01:23:23,179 — 127.0.0.1 - - [12/Dec/2025 01:23:23] "GET /users/account?__debugger__=yes&cmd=resource&f=console.png&s=BUprRj6usLhqyFUg6LpQ HTTP/1.1" 200 -
+2025-12-12 01:23:23,195 — 127.0.0.1 - - [12/Dec/2025 01:23:23] "GET /users/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-12 01:36:52,859 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-12-12 01:36:53,067 —  * Restarting with stat
+2025-12-12 01:36:55,778 —  * Debugger is active!
+2025-12-12 01:36:55,782 —  * Debugger PIN: 323-008-109
+2025-12-12 01:37:11,553 — 127.0.0.1 - - [12/Dec/2025 01:37:11] "[35m[1mGET /users/account HTTP/1.1[0m" 500 -
+2025-12-12 01:37:11,767 — 127.0.0.1 - - [12/Dec/2025 01:37:11] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-12 01:37:11,788 — 127.0.0.1 - - [12/Dec/2025 01:37:11] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-12 01:37:11,827 — 127.0.0.1 - - [12/Dec/2025 01:37:11] "GET /users/account?__debugger__=yes&cmd=resource&f=console.png&s=l727VsIzKhsOVVUOQZtm HTTP/1.1" 200 -
+2025-12-12 01:37:11,836 — 127.0.0.1 - - [12/Dec/2025 01:37:11] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-12 01:41:52,216 — 127.0.0.1 - - [12/Dec/2025 01:41:52] "[35m[1mGET /users/account HTTP/1.1[0m" 500 -
+2025-12-12 01:41:52,303 — 127.0.0.1 - - [12/Dec/2025 01:41:52] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-12 01:41:52,304 — 127.0.0.1 - - [12/Dec/2025 01:41:52] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-12 01:41:52,415 — 127.0.0.1 - - [12/Dec/2025 01:41:52] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png&s=l727VsIzKhsOVVUOQZtm HTTP/1.1[0m" 304 -
+2025-12-12 01:41:52,431 — 127.0.0.1 - - [12/Dec/2025 01:41:52] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-12 01:41:53,268 — 127.0.0.1 - - [12/Dec/2025 01:41:53] "[35m[1mGET /users/account HTTP/1.1[0m" 500 -
+2025-12-12 01:41:53,331 — 127.0.0.1 - - [12/Dec/2025 01:41:53] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-12 01:41:53,337 — 127.0.0.1 - - [12/Dec/2025 01:41:53] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-12 01:41:53,366 — 127.0.0.1 - - [12/Dec/2025 01:41:53] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png&s=l727VsIzKhsOVVUOQZtm HTTP/1.1[0m" 304 -
+2025-12-12 01:41:53,379 — 127.0.0.1 - - [12/Dec/2025 01:41:53] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-12 01:44:48,646 — 127.0.0.1 - - [12/Dec/2025 01:44:48] "[35m[1mGET /users/account HTTP/1.1[0m" 500 -
+2025-12-12 01:44:48,726 — 127.0.0.1 - - [12/Dec/2025 01:44:48] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-12 01:44:48,734 — 127.0.0.1 - - [12/Dec/2025 01:44:48] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-12 01:44:48,767 — 127.0.0.1 - - [12/Dec/2025 01:44:48] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png&s=l727VsIzKhsOVVUOQZtm HTTP/1.1[0m" 304 -
+2025-12-12 01:44:48,785 — 127.0.0.1 - - [12/Dec/2025 01:44:48] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-12 01:44:49,539 — 127.0.0.1 - - [12/Dec/2025 01:44:49] "[35m[1mGET /users/account HTTP/1.1[0m" 500 -
+2025-12-12 01:44:49,588 — 127.0.0.1 - - [12/Dec/2025 01:44:49] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-12 01:44:49,603 — 127.0.0.1 - - [12/Dec/2025 01:44:49] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-12 01:44:49,640 — 127.0.0.1 - - [12/Dec/2025 01:44:49] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png&s=l727VsIzKhsOVVUOQZtm HTTP/1.1[0m" 304 -
+2025-12-12 01:44:49,671 — 127.0.0.1 - - [12/Dec/2025 01:44:49] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-12 01:45:31,194 — 127.0.0.1 - - [12/Dec/2025 01:45:31] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 01:45:31,230 — 127.0.0.1 - - [12/Dec/2025 01:45:31] "GET /users/static/profile_default.jpg HTTP/1.1" 200 -
+2025-12-12 01:45:31,245 — 127.0.0.1 - - [12/Dec/2025 01:45:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:05:09,303 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-12 02:05:09,303 — [33mPress CTRL+C to quit[0m
+2025-12-12 02:05:09,305 —  * Restarting with stat
+2025-12-12 02:05:10,395 —  * Debugger is active!
+2025-12-12 02:05:10,398 —  * Debugger PIN: 323-008-109
+2025-12-12 02:05:14,921 — 127.0.0.1 - - [12/Dec/2025 02:05:14] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:05:15,017 — 127.0.0.1 - - [12/Dec/2025 02:05:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:05:15,035 — 127.0.0.1 - - [12/Dec/2025 02:05:15] "[36mGET /users/static/profile_default.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:05:34,956 — 127.0.0.1 - - [12/Dec/2025 02:05:34] "[35m[1mPOST /users/account HTTP/1.1[0m" 500 -
+2025-12-12 02:05:35,040 — 127.0.0.1 - - [12/Dec/2025 02:05:35] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:05:35,040 — 127.0.0.1 - - [12/Dec/2025 02:05:35] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-12 02:05:35,073 — 127.0.0.1 - - [12/Dec/2025 02:05:35] "GET /users/account?__debugger__=yes&cmd=resource&f=console.png&s=DVl18FYcEXPzsHbQX8yZ HTTP/1.1" 200 -
+2025-12-12 02:05:35,101 — 127.0.0.1 - - [12/Dec/2025 02:05:35] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-12 02:06:53,178 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\form.py', reloading
+2025-12-12 02:06:53,861 —  * Restarting with stat
+2025-12-12 02:06:56,959 —  * Debugger is active!
+2025-12-12 02:06:56,962 —  * Debugger PIN: 323-008-109
+2025-12-12 02:06:57,608 — 127.0.0.1 - - [12/Dec/2025 02:06:57] "[35m[1mPOST /users/account HTTP/1.1[0m" 500 -
+2025-12-12 02:06:57,756 — 127.0.0.1 - - [12/Dec/2025 02:06:57] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:06:57,771 — 127.0.0.1 - - [12/Dec/2025 02:06:57] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-12 02:06:57,805 — 127.0.0.1 - - [12/Dec/2025 02:06:57] "GET /users/account?__debugger__=yes&cmd=resource&f=console.png&s=gbtVuPXYAIK9IWjqSsNR HTTP/1.1" 200 -
+2025-12-12 02:06:57,822 — 127.0.0.1 - - [12/Dec/2025 02:06:57] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-12 02:07:59,362 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-12-12 02:07:59,614 —  * Restarting with stat
+2025-12-12 02:08:01,008 —  * Debugger is active!
+2025-12-12 02:08:01,011 —  * Debugger PIN: 323-008-109
+2025-12-12 02:08:09,608 — 127.0.0.1 - - [12/Dec/2025 02:08:09] "[35m[1mPOST /users/account HTTP/1.1[0m" 500 -
+2025-12-12 02:08:09,692 — 127.0.0.1 - - [12/Dec/2025 02:08:09] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:08:09,710 — 127.0.0.1 - - [12/Dec/2025 02:08:09] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-12 02:08:09,737 — 127.0.0.1 - - [12/Dec/2025 02:08:09] "GET /users/account?__debugger__=yes&cmd=resource&f=console.png&s=Nt5UQdVQcWF981Q4R2jL HTTP/1.1" 200 -
+2025-12-12 02:08:09,745 — 127.0.0.1 - - [12/Dec/2025 02:08:09] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-12 02:08:43,777 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-12-12 02:08:44,225 —  * Restarting with stat
+2025-12-12 02:08:46,413 —  * Debugger is active!
+2025-12-12 02:08:46,418 —  * Debugger PIN: 323-008-109
+2025-12-12 02:08:47,353 — 127.0.0.1 - - [12/Dec/2025 02:08:47] "[35m[1mPOST /users/account HTTP/1.1[0m" 500 -
+2025-12-12 02:08:47,453 — 127.0.0.1 - - [12/Dec/2025 02:08:47] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:08:47,460 — 127.0.0.1 - - [12/Dec/2025 02:08:47] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-12 02:08:47,492 — 127.0.0.1 - - [12/Dec/2025 02:08:47] "GET /users/account?__debugger__=yes&cmd=resource&f=console.png&s=CPr22wdxVhyHz37JOWC3 HTTP/1.1" 200 -
+2025-12-12 02:08:47,536 — 127.0.0.1 - - [12/Dec/2025 02:08:47] "[36mGET /users/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-12 02:10:13,277 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-12-12 02:10:13,512 —  * Restarting with stat
+2025-12-12 02:10:15,732 —  * Debugger is active!
+2025-12-12 02:10:15,735 —  * Debugger PIN: 323-008-109
+2025-12-12 02:10:27,514 — 127.0.0.1 - - [12/Dec/2025 02:10:27] "[32mPOST /users/account HTTP/1.1[0m" 302 -
+2025-12-12 02:10:27,577 — 127.0.0.1 - - [12/Dec/2025 02:10:27] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:10:27,685 — 127.0.0.1 - - [12/Dec/2025 02:10:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:10:27,758 — 127.0.0.1 - - [12/Dec/2025 02:10:27] "GET /users/static/b7bf1139880580a1.jpg HTTP/1.1" 200 -
+2025-12-12 02:10:35,274 — 127.0.0.1 - - [12/Dec/2025 02:10:35] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:10:35,309 — 127.0.0.1 - - [12/Dec/2025 02:10:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:10:35,360 — 127.0.0.1 - - [12/Dec/2025 02:10:35] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:12:24,304 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\models.py', reloading
+2025-12-12 02:12:24,740 —  * Restarting with stat
+2025-12-12 02:18:27,632 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-12 02:18:27,632 — [33mPress CTRL+C to quit[0m
+2025-12-12 02:18:27,634 —  * Restarting with stat
+2025-12-12 02:18:28,674 —  * Debugger is active!
+2025-12-12 02:18:28,677 —  * Debugger PIN: 323-008-109
+2025-12-12 02:22:17,246 — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-12-12 02:22:17,247 — [33mPress CTRL+C to quit[0m
+2025-12-12 02:22:17,248 —  * Restarting with stat
+2025-12-12 02:22:18,749 —  * Debugger is active!
+2025-12-12 02:22:18,754 —  * Debugger PIN: 323-008-109
+2025-12-12 02:22:19,209 — 127.0.0.1 - - [12/Dec/2025 02:22:19] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:22:19,455 — 127.0.0.1 - - [12/Dec/2025 02:22:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:22:19,528 — 127.0.0.1 - - [12/Dec/2025 02:22:19] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:22:32,771 — 127.0.0.1 - - [12/Dec/2025 02:22:32] "[32mPOST /users/account HTTP/1.1[0m" 302 -
+2025-12-12 02:22:32,878 — 127.0.0.1 - - [12/Dec/2025 02:22:32] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:22:33,027 — 127.0.0.1 - - [12/Dec/2025 02:22:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:22:33,361 — 127.0.0.1 - - [12/Dec/2025 02:22:33] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:22:37,294 — 127.0.0.1 - - [12/Dec/2025 02:22:37] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:22:37,471 — 127.0.0.1 - - [12/Dec/2025 02:22:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:22:37,593 — 127.0.0.1 - - [12/Dec/2025 02:22:37] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:22:40,336 — 127.0.0.1 - - [12/Dec/2025 02:22:40] "[32mGET /users/register HTTP/1.1[0m" 302 -
+2025-12-12 02:22:40,454 — 127.0.0.1 - - [12/Dec/2025 02:22:40] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:22:40,643 — 127.0.0.1 - - [12/Dec/2025 02:22:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:22:40,776 — 127.0.0.1 - - [12/Dec/2025 02:22:40] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:22:43,424 — 127.0.0.1 - - [12/Dec/2025 02:22:43] "GET /posts/ HTTP/1.1" 200 -
+2025-12-12 02:22:43,571 — 127.0.0.1 - - [12/Dec/2025 02:22:43] "GET /posts/static/css/posts.css HTTP/1.1" 200 -
+2025-12-12 02:22:43,679 — 127.0.0.1 - - [12/Dec/2025 02:22:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:22:47,860 — 127.0.0.1 - - [12/Dec/2025 02:22:47] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:22:48,024 — 127.0.0.1 - - [12/Dec/2025 02:22:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:22:48,154 — 127.0.0.1 - - [12/Dec/2025 02:22:48] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:23:19,380 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\form.py', reloading
+2025-12-12 02:23:19,615 —  * Restarting with stat
+2025-12-12 02:23:29,970 —  * Restarting with stat
+2025-12-12 02:23:31,871 —  * Debugger is active!
+2025-12-12 02:23:31,874 —  * Debugger PIN: 323-008-109
+2025-12-12 02:24:28,294 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-12-12 02:24:28,817 —  * Restarting with stat
+2025-12-12 02:24:30,959 —  * Debugger is active!
+2025-12-12 02:24:30,961 —  * Debugger PIN: 323-008-109
+2025-12-12 02:25:02,127 — 127.0.0.1 - - [12/Dec/2025 02:25:02] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:25:02,357 — 127.0.0.1 - - [12/Dec/2025 02:25:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:25:02,443 — 127.0.0.1 - - [12/Dec/2025 02:25:02] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:26:38,698 — 127.0.0.1 - - [12/Dec/2025 02:26:38] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:26:38,856 — 127.0.0.1 - - [12/Dec/2025 02:26:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:26:38,971 — 127.0.0.1 - - [12/Dec/2025 02:26:38] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:26:40,776 — 127.0.0.1 - - [12/Dec/2025 02:26:40] "[35m[1mGET /users/change_password HTTP/1.1[0m" 500 -
+2025-12-12 02:26:41,023 — 127.0.0.1 - - [12/Dec/2025 02:26:41] "GET /users/change_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-12 02:26:41,025 — 127.0.0.1 - - [12/Dec/2025 02:26:41] "GET /users/change_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-12 02:26:41,063 — 127.0.0.1 - - [12/Dec/2025 02:26:41] "GET /users/change_password?__debugger__=yes&cmd=resource&f=console.png&s=FAwV8Xun2MoVSsYtG4wN HTTP/1.1" 200 -
+2025-12-12 02:26:41,313 — 127.0.0.1 - - [12/Dec/2025 02:26:41] "GET /users/change_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-12 02:27:41,041 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-12-12 02:27:41,567 —  * Restarting with stat
+2025-12-12 02:27:44,633 —  * Debugger is active!
+2025-12-12 02:27:44,639 —  * Debugger PIN: 323-008-109
+2025-12-12 02:27:57,385 —  * Detected change in 'D:\\flask_app_Ostapiak\\app\\users\\views.py', reloading
+2025-12-12 02:27:57,834 —  * Restarting with stat
+2025-12-12 02:27:59,814 —  * Debugger is active!
+2025-12-12 02:27:59,816 —  * Debugger PIN: 323-008-109
+2025-12-12 02:28:03,886 — 127.0.0.1 - - [12/Dec/2025 02:28:03] "GET /users/change_password HTTP/1.1" 200 -
+2025-12-12 02:28:04,233 — 127.0.0.1 - - [12/Dec/2025 02:28:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:28:19,664 — 127.0.0.1 - - [12/Dec/2025 02:28:19] "[32mPOST /users/change_password HTTP/1.1[0m" 302 -
+2025-12-12 02:28:19,791 — 127.0.0.1 - - [12/Dec/2025 02:28:19] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:28:19,950 — 127.0.0.1 - - [12/Dec/2025 02:28:19] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:28:20,072 — 127.0.0.1 - - [12/Dec/2025 02:28:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:28:27,351 — 127.0.0.1 - - [12/Dec/2025 02:28:27] "GET /users/users HTTP/1.1" 200 -
+2025-12-12 02:28:27,506 — 127.0.0.1 - - [12/Dec/2025 02:28:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:28:28,873 — 127.0.0.1 - - [12/Dec/2025 02:28:28] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:28:29,029 — 127.0.0.1 - - [12/Dec/2025 02:28:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:28:29,156 — 127.0.0.1 - - [12/Dec/2025 02:28:29] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:28:33,105 — 127.0.0.1 - - [12/Dec/2025 02:28:33] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-12-12 02:28:33,223 — 127.0.0.1 - - [12/Dec/2025 02:28:33] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:28:33,372 — 127.0.0.1 - - [12/Dec/2025 02:28:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:28:33,507 — 127.0.0.1 - - [12/Dec/2025 02:28:33] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:28:34,665 — 127.0.0.1 - - [12/Dec/2025 02:28:34] "[32mGET /users/login HTTP/1.1[0m" 302 -
+2025-12-12 02:28:34,796 — 127.0.0.1 - - [12/Dec/2025 02:28:34] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:28:34,993 — 127.0.0.1 - - [12/Dec/2025 02:28:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:28:35,147 — 127.0.0.1 - - [12/Dec/2025 02:28:35] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:30:11,880 — 127.0.0.1 - - [12/Dec/2025 02:30:11] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:30:12,032 — 127.0.0.1 - - [12/Dec/2025 02:30:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:30:12,140 — 127.0.0.1 - - [12/Dec/2025 02:30:12] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:30:14,108 — 127.0.0.1 - - [12/Dec/2025 02:30:14] "GET /users/change_password HTTP/1.1" 200 -
+2025-12-12 02:30:14,262 — 127.0.0.1 - - [12/Dec/2025 02:30:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:30:20,305 — 127.0.0.1 - - [12/Dec/2025 02:30:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:30:20,415 — 127.0.0.1 - - [12/Dec/2025 02:30:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-12 02:31:06,580 — 127.0.0.1 - - [12/Dec/2025 02:31:06] "GET /users/change_password HTTP/1.1" 200 -
+2025-12-12 02:31:06,730 — 127.0.0.1 - - [12/Dec/2025 02:31:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:31:38,376 — 127.0.0.1 - - [12/Dec/2025 02:31:38] "[32mPOST /users/change_password HTTP/1.1[0m" 302 -
+2025-12-12 02:31:38,495 — 127.0.0.1 - - [12/Dec/2025 02:31:38] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:31:38,659 — 127.0.0.1 - - [12/Dec/2025 02:31:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-12-12 02:31:38,785 — 127.0.0.1 - - [12/Dec/2025 02:31:38] "[36mGET /users/static/b7bf1139880580a1.jpg HTTP/1.1[0m" 304 -
+2025-12-12 02:32:20,600 — 127.0.0.1 - - [12/Dec/2025 02:32:20] "[32mPOST /users/account HTTP/1.1[0m" 302 -
+2025-12-12 02:32:20,725 — 127.0.0.1 - - [12/Dec/2025 02:32:20] "GET /users/account HTTP/1.1" 200 -
+2025-12-12 02:32:20,961 — 127.0.0.1 - - [12/Dec/2025 02:32:20] "GET /users/static/d8edb9f1c93e9dda.jpg HTTP/1.1" 200 -
+2025-12-12 02:32:21,075 — 127.0.0.1 - - [12/Dec/2025 02:32:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
