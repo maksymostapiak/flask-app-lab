@@ -47,7 +47,9 @@ def create_app(config_class=None):
     from app.products.views import products_bp
     from app.views import views_bp
     from app.posts.views import posts_bp
-
+    from app.phones.views import phones_bp
+    
+    app.register_blueprint(phones_bp)
     app.register_blueprint(users_bp)
     app.register_blueprint(products_bp)
     app.register_blueprint(views_bp)

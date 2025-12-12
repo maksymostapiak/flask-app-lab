@@ -3,6 +3,7 @@
     <a class="navbar-brand" href="{{ url_for('views.resume') }}">Моє резюме</a>
     <div>
       <ul class="navbar-nav ms-auto">
+        <li><a class="nav-link" href="{{ url_for('phones.list_phones') }}">Телефони</a></li>
         <li class="nav-item"><a class="nav-link" href="{{ url_for('posts.posts') }}">Пости</a></li>
         <li class="nav-item"><a class="nav-link" href="{{ url_for('views.resume') }}">Резюме</a></li>
         <li class="nav-item"><a class="nav-link" href="{{ url_for('views.contacts') }}">Контакти</a></li>

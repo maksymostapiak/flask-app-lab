@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% from "components/form_field.html" import render_field %} {% block content %}
+<div class="container mt-4">
+    <h2>{{ title }}</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        
+        <div class="mb-3">
+            {{ form.brand_id.label(class="form-label") }}
+            {{ form.brand_id(class="form-select") }}
+        </div>
+
+        <div class="mb-3">
+            {{ form.model_name.label(class="form-label") }}
+            {{ form.model_name(class="form-control") }}
+        </div>
+
+        <div class="mb-3">
+            {{ form.price.label(class="form-label") }}
+            {{ form.price(class="form-control") }}
+        </div>
+
+        <div class="mb-3">
+            {{ form.description.label(class="form-label") }}
+            {{ form.description(class="form-control", rows="3") }}
+        </div>
+
+        {{ form.submit(class="btn btn-success") }}
+        <a href="{{ url_for('phones.list_phones') }}" class="btn btn-secondary">Назад</a>
+    </form>
+</div>
+{% endblock %}

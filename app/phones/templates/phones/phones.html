@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1>Каталог телефонів</h1>
+    
+    <form class="d-flex mb-4" method="GET" action="{{ url_for('phones.list_phones') }}">
+        
+        <input class="form-control me-2" type="search" placeholder="Пошук моделі" 
+               name="q" value="{{ search_query|default('') }}" aria-label="Search">
+
+        <select name="sort" class="form-select me-2" style="max-width: 200px;">
+            <option value="id_desc"   {% if sort_by == 'id_desc' %}selected{% endif %}>Новіші спочатку</option>
+            <option value="id_asc"    {% if sort_by == 'id_asc' %}selected{% endif %}>Старіші спочатку</option>
+
+            <option value="name_asc"  {% if sort_by == 'name_asc' %}selected{% endif %}>Назва (А→Я)</option>
+            <option value="name_desc" {% if sort_by == 'name_desc' %}selected{% endif %}>Назва (Я→А)</option>
+
+            <option value="price_asc" {% if sort_by == 'price_asc' %}selected{% endif %}>Ціна (зростання)</option>
+            <option value="price_desc" {% if sort_by == 'price_desc' %}selected{% endif %}>Ціна (спадання)</option>
+
+            <option value="brand_asc" {% if sort_by == 'brand_asc' %}selected{% endif %}>Бренд (А→Я)</option>
+            <option value="brand_desc" {% if sort_by == 'brand_desc' %}selected{% endif %}>Бренд (Я→А)</option>
+        </select>
+
+        <button class="btn btn-outline-success" type="submit">Пошук</button>
+        <a href="{{ url_for('phones.list_phones') }}" class="btn btn-outline-secondary ms-2">Скинути</a>
+    </form>
+
+    <a href="{{ url_for('phones.create_phone') }}" class="btn btn-primary mb-3">Додати телефон</a>
+
+    <div class="row">
+        {% for phone in phones %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">{{ phone.brand.name }} {{ phone.model_name }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Ціна: ${{ phone.price }}</h6>
+                    <p class="card-text">{{ phone.description | truncate(50) }}</p>
+                    <a href="{{ url_for('phones.detail_phone', id=phone.id) }}" class="card-link">Детальніше</a>
+                </div>
+                <div class="card-footer text-muted">
+                    Власник: {{ phone.owner.username }}
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <div class="col-12">
+            <p>Телефонів не знайдено.</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

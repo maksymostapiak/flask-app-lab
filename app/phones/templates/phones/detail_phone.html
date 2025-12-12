@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            {{ phone.brand.name }}
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">{{ phone.model_name }}</h2>
+            <h4 class="text-success">${{ phone.price }}</h4>
+            <p class="card-text">{{ phone.description }}</p>
+            <p class="text-muted">Продавець: {{ phone.owner.username }}</p>
+
+            <a href="{{ url_for('phones.list_phones') }}" class="btn btn-light">Назад</a>
+
+            {% if current_user.is_authenticated and current_user == phone.owner %}
+                <a href="{{ url_for('phones.update_phone', id=phone.id) }}" class="btn btn-warning">Редагувати</a>
+                
+                <form action="{{ url_for('phones.delete_phone', id=phone.id) }}" method="POST" style="display:inline;">
+                    <button type="submit" class="btn btn-danger" onclick="return confirm('Видалити цей запис?')">Видалити</button>
+                </form>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
